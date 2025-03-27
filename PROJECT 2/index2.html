@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareerConnect</title>
+    <link rel="stylesheet" href="index3.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>CareerConnect</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#jobs">Jobs</a>
+            <a href="#post-job">Post a Job</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
+
+    <!-- Pop-Up Section -->
+    <div id="popUp" class="pop-up">
+        <div class="pop-up-content">
+            <span class="close">&times;</span>
+            <h3>Your Dream Job Awaits!</h3>
+            <p>Start your journey today. Explore thousands of job opportunities tailored just for you.</p>
+        </div>
+    </div>
+
+    <!-- Home Section -->
+    <section id="home" class="section welcome-message">
+        <h2>Welcome to CareerConnect</h2>
+        <p>Your gateway to endless career opportunities. Whether you're a job seeker or an employer, we’ve got you covered.</p>
+        
+        <h3>Why Choose CareerConnect?</h3>
+        <ul>
+            <li>🚀 Instant job matches based on your skills and preferences.</li>
+            <li>📄 Easy resume upload and application process.</li>
+            <li>🔔 Real-time notifications for job updates.</li>
+            <li>💼 Employer-friendly tools for posting jobs and managing candidates.</li>
+        </ul>
+
+        <h3>How It Works</h3>
+        <div class="steps">
+            <div class="step">
+                <h4>1. Create Your Profile</h4>
+                <p>Sign up and build your professional profile in minutes.</p>
+            </div>
+            <div class="step">
+                <h4>2. Browse Jobs</h4>
+                <p>Explore thousands of job listings tailored to your skills.</p>
+            </div>
+            <div class="step">
+                <h4>3. Apply & Connect</h4>
+                <p>Apply with a single click and connect with top employers.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Job Listings Section -->
+    <section id="jobs" class="section">
+        <h2>Featured Job Listings</h2>
+        <div id="job-listings" class="job-listings">
+            <!-- Job Card 1 -->
+            <div class="job-card">
+                <img src="https://t4.ftcdn.net/jpg/01/51/26/75/360_F_151267526_CCzkZ7cM0p2dTalSL6RQIoDxr2VUXEkZ.jpg" alt="Company Logo">
+                <h3>Frontend Developer</h3>
+                <p><strong>Company:</strong> Tech Innovators</p>
+                <p><strong>Location:</strong> Remote</p>
+                <p><strong>Description:</strong> Join our team to build cutting-edge web applications.</p>
+                <button class="apply-button">Apply Now</button>
+                <button class="save-button">Save Job</button>
+            </div>
+
+            <!-- Job Card 2 -->
+            <div class="job-card">
+                <img src="https://wallpapers.com/images/hd/data-science-business-information-m8dmd67am39ybvhs.jpg" alt="Company Logo">
+                <h3>Data Scientist</h3>
+                <p><strong>Company:</strong> DataWiz</p>
+                <p><strong>Location:</strong> New York, NY</p>
+                <p><strong>Description:</strong> Analyze complex data and drive business decisions.</p>
+                <button class="apply-button">Apply Now</button>
+                <button class="save-button">Save Job</button>
+            </div>
+
+            <!-- Job Card 3 -->
+            <div class="job-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHvRAoxRH6z8bLCzbNd2AgmOcmqFxQY1qN1A&s" alt="Company Logo">
+                <h3>Marketing Manager</h3>
+                <p><strong>Company:</strong> BrandBoost</p>
+                <p><strong>Location:</strong> Los Angeles, CA</p>
+                <p><strong>Description:</strong> Lead our marketing team to new heights.</p>
+                <button class="apply-button">Apply Now</button>
+                <button class="save-button">Save Job</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Post Job Section -->
+    <section id="post-job" class="section">
+        <h2>Post a Job</h2>
+        <form id="job-form" class="job-form">
+            <label for="job-title">Job Title:</label>
+            <input type="text" id="title" placeholder="Enter job title" required>
+
+            <label for="company">Company:</label>
+            <input type="text" id="company" placeholder="Enter company name" required>
+
+            <label for="location">Location:</label>
+            <input type="text" id="location" placeholder="Enter job location" required>
+
+            <label for="description">Job Description:</label>
+            <textarea id="description" placeholder="Enter job description" required></textarea>
+
+            <label for="image">Company Logo URL:</label>
+            <input type="text" id="image" placeholder="Enter image URL" required>
+
+            <button type="submit">Post Job</button>
+        </form>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About CareerConnect</h2>
+        <p>At CareerConnect, we believe in connecting talent with opportunity. Our mission is to simplify the job search process for candidates and help employers find the perfect fit.</p>
+        
+        <h3>Our Vision</h3>
+        <p>To revolutionize the job market by creating a seamless, efficient, and user-friendly platform for job seekers and employers alike.</p>
+
+        <h3>Our Team</h3>
+        <p>We are a group of passionate individuals dedicated to making your career journey smoother and more rewarding.</p>
+
+        <h3>Join Us Today</h3>
+        <p>Whether you're looking for a job or hiring talent, CareerConnect is here to help. Sign up now and take the first step towards your future.</p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 CareerConnect. All rights reserved.</p>
+        <p>Follow us on <a href="#">LinkedIn</a> | <a href="#">Twitter</a> | <a href="#">Facebook</a></p>
+    </footer>
+
+    <script src="index2.js"></script>
+</body>
+</html>
